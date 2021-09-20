@@ -4,17 +4,23 @@ Just a place to dump code from Fittiboy's unfinished Pokemon python project. You
 --------------------------- Copied To Do List ---------------------------
 
 To Do list:
-    - implement .gain_health() method
-    - implement .attack() method
-    - implement experience points
-    - implement evolutions
-    - implement individual values (IVs: special attack, special defense, speed, etc.)
 
-    - create Trainer class
-    - add basic trainer functionality
-    
-    - add Items class
+* implement .gain_health() method
 
-    - lots of testing
-    
-    - have fun :)
+* implement .attack() method
+
+* implement experience points
+
+* implement evolutions
+
+* implement individual values (IVs: special attack, special defense, speed, etc.)
+
+* create Trainer class
+
+* add basic trainer functionality
+
+* add Items class
+
+* lots of testing
+
+* have fun :)
