@@ -8,7 +8,7 @@ To Do list:
     - implement .attack() method
     - implement experience points
     - implement evolutions
-    - implement different stats (spd, def, atk, etc.)
+    - implement individual values (IVs: special attack, special defense, speed, etc.)
 
     - create Trainer class
     - add basic trainer functionality
@@ -17,3 +17,4 @@ To Do list:
 
     - lots of testing
     
+    - have fun :)
