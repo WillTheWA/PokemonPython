@@ -55,7 +55,12 @@ class Pokemon:
 
     def gain_health(self, amount):
         """Heals a Pokemon by amount"""
-        pass
+        self.current_hp += amount
+        self.current_hp_fraction_calc()
+        if self.current_hp <= 0:
+            return self.knock_out()
+        else:
+            return f"{self.name.title()} has restored {amount} HP and is now at {self.current_hp} HP."
 
     def knock_out(self):
         self.fainted = True
