@@ -23,4 +23,6 @@ To Do list:
 
 * lots of testing
 
+* implement startGame function
+
 * have fun :)
