@@ -1,0 +1,47 @@
+import system
+
+def print_slow(str):
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.1)
+
+def playerName():
+    name = input('What would you like to name your character?')
+    print_slow("So its " + name + " huh? ")
+    b = input('Y or N')
+    if b == 'Y':
+        print_slow("Prepare to begin your Pokemon journey...")
+    else:
+        print_slow("Please restart and enter again")
+        exit()
+
+def choseStarter():
+    print_slow("Which Pokemon will you choose?")
+    print("Chimchar = 1")
+    print("Bulbasaur = 2")
+    print("Mudkip = 3")
+    a = input('')
+
+    if a == '1':
+        print_slow("You chose the fire type Pokemon Chimchar!")
+        pokemon = 'Chimchar'
+    elif a == '2':
+        print_slow("You chose the grass type Pokemon Bulbasaur!")
+        pokemon = 'Bulbasaur'
+    elif a == '3':
+        print_slow("You chose the water type Pokemon Mudkip!")
+        pokemon = 'Mudkip'
+    
+    print('\n')
+    print(pokemon)
+
+def gameStart():
+    playerName()
+    choseStarter()
+
+charmander = Pokemon("Charmander", 5, ["fire"])
+bulbasaur = Pokemon("Bulbasaur", 5, ["grass"])
+mudkip = Pokemon("Mudkip", 5, ["water"])
+
+gameStart()
